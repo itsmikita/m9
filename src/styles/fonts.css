@@ -1,0 +1,35 @@
+/* Sklad Sans Regular */
+@font-face {
+  font-family: "Sklad Sans";
+  src: url( "../fonts/sklad-sans-regular.woff2" ) format("woff2"),
+    url( "../fonts/sklad-sans-regular.woff" ) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Sklad Sans Bold */
+@font-face {
+  font-family: "Sklad Sans";
+  src: url( "../fonts/sklad-sans-bold.woff2" ) format("woff2"),
+    url( "../fonts/sklad-sans-bold.woff" ) format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Sklad Mono Regular */
+@font-face {
+  font-family: "Sklad Mono";
+  src: url( "../fonts/sklad-mono-regular.woff2" ) format( "woff2" ),
+    url( "../fonts/sklad-mono-regular.woff" ) format( "woff" );
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Sklad Mono Bold */
+@font-face {
+  font-family: "Sklad Sans";
+  src: url( "../fonts/sklad-sans-bold.woff2" ) format( "woff2" ),
+    url( "../fonts/sklad-sans-bold.woff" ) format( "woff" );
+  font-weight: bold;
+  font-style: normal;
+}

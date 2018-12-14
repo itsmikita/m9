@@ -1,0 +1,17 @@
+@import url( styles/variables.css );
+@import url( styles/fonts.css );
+
+/* Micro-reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var( --font-sans );
+  color: var( ---color-primary );
+}
+
+body {
+  font-size: var( --scale-medium );
+  letter-spacing: var( --tracking-medium );
+  line-height: var( --leading-medium );
+}

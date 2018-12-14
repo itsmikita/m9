@@ -1,0 +1,30 @@
+:root {
+  /* Scale */
+  --scale-small: 12px;
+  --scale-medium: 16px;
+  --scale-large: 20px;
+
+  /* Spacing */
+  --spacing-small: 4px;
+  --spacing-medium: 8px;
+  --spacing-large: 16px;
+
+  /* Type */
+  --font-sans: "Sklad Sans", sans-serif;
+  --font-mono: "Sklad Mono", sans-serif;
+
+  /* Letter Spacing */
+  --tracking-narrow: "-0.044em";
+  --tracking-medium: "none";
+  --tracking-wide: "0.096em";
+
+  /* Line Height */
+  --leading-small: 16px;
+  --leading-medium: 20px;
+  --leading-large: 28px;
+
+  /* Color Palette */
+  --color-black: rgb( 0, 0, 0 );
+  --color-white: rgb( 255, 255, 255 );
+
+}
