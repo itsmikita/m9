@@ -46,13 +46,13 @@ module.exports = {
   devServer: {
     contentBase: __dirname + "/public/",
     compress: true,
-    port: 4000,
+    port: process.env.PORT,
     https: {
-      key: fs.readFileSync( __dirname + "/crt/localhost.key" ),
-      cert: fs.readFileSync( __dirname + "/crt/localhost.crt" ),
-      ca: fs.readFileSync( __dirname + "/crt/localhost.pem" ),
+      key: fs.readFileSync( process.env.PROJECT_ROOT + "/crt/localhost.key" ),
+      cert: fs.readFileSync( process.env.PROJECT_ROOT + "/crt/localhost.crt" ),
+      ca: fs.readFileSync( process.env.PROJECT_ROOT + "/crt/localhost.pem" ),
     },
-    publicPath: "https://localhost:4000/",
+    publicPath: "https://localhost:" + process.env.PORT + "/",
     hot: true
   },
   plugins: [

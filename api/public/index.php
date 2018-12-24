@@ -1,3 +1,7 @@
 <?php
 
-echo "Hallo Welt!";
+/**
+ * API Server
+ */
+
+include "../app.php";

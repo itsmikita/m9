@@ -3,8 +3,8 @@
   "version": "9.0.9",
   "private": true,
   "scripts": {
-    "start": "webpack-dev-server --open",
-    "api": "hhvm -m server -c hhvm.ini"
+    "start": "PORT=4001 PROJECT_ROOT=/Users/itsmikita/git/m9 webpack-dev-server --open",
+    "api": "open https://localhost:5001/ && PORT=5001 PUBLIC_PATH=/Users/itsmikita/git/m9/api/public SSL_KEY_FILE=/Users/itsmikita/git/m9/crt/localhost.key SSL_PEM_FILE= hhvm -m server -d hhvm.server.port=8001 -d hhvm.server.source_root=/Users/itsmikita/git/m9/api/public -d hhvm.server.ssl_port=5001 -d hhvm.server.ssl_certificate_file=/Users/itsmikita/git/m9/crt/localhost.pem -d hhvm.server.ssl_certificate_key_file=/Users/itsmikita/git/m9/crt/localhost.key -c hhvm.ini"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.0",
